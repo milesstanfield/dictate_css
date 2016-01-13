@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Setup
 
-Run this in your console to create the styles in your **vendor/assets/stylesheets** directory
+Run this in your console to create the styles in your vendor/assets/stylesheets directory
 
 ```
 rails g dictate_css styles
@@ -65,13 +65,11 @@ Pick and choose which stylesheets to include in your asset pipeline. **base is n
 
 <div class="hide-on-mobile">
   My style is
-  <pre>
-    @media only screen and (max-width: 768px) {
-      .hide-on-mobile {
-        display: none;
-      }
+  @media only screen and (max-width: 768px) {
+    .hide-on-mobile {
+      display: none;
     }
-  </pre>
+  }
 </div>
 ```
 

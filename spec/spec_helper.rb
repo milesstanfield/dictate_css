@@ -10,4 +10,9 @@ Capybara.ignore_hidden_elements = true
 
 RSpec.configure do |config|
   include Capybara::DSL
+
+  config.after(:each, type: :generator) do
+    system `rm -rf vendor`
+    system `rm -rf spec/lib/tmp`
+  end
 end

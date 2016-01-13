@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "capybara", "> 2.3.0"
   spec.add_development_dependency "capybara-webkit", "~> 1.1.0"
   spec.add_development_dependency "generator_spec"
+  spec.add_development_dependency "pry-byebug"
 end
