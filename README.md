@@ -40,9 +40,12 @@ Pick and choose which stylesheets to include in your asset pipeline. **base is n
 *= require "dictate_css/hide_show"
 ```
 
+some example classes included **base**
+- .hide
+
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dictate_css. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/milesstanfield/dictate_css. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
