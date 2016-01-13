@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Miles Stanfield"]
   spec.email         = ["milesstanfield@gmail.com"]
 
-  spec.summary       = %q{An intuitive and very DRY CSS framework that eliminates the need to refer to stylesheets to find out what a style does.}
+  spec.summary       = %q{An intuitive and very DRY CSS framework that speeds up development by eliminating the need to refer to stylesheets to find out what a style does.}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/milesstanfield/dictate_css"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
