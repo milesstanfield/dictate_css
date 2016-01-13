@@ -73,7 +73,15 @@ Pick and choose which stylesheets to include in your asset pipeline. **base is n
 </div>
 ```
 
-To see all the possible styles you can look in your generated styles in vendor/assets/stylesheets/dictate_css. Or if you want to look at them here look in the repo [base](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/base.css) [colors](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/colors.css) [floating](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/floating.css) [hide_show](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/hide_show.css)
+To see all the possible styles you can look in your generated styles in vendor/assets/stylesheets/dictate_css. Or just look at the files here
+<br>
+[base](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/base.css)
+<br>
+[colors](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/colors.css)
+<br>
+[floating](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/floating.css)
+<br>
+[hide_show](https://github.com/milesstanfield/dictate_css/blob/master/app/assets/stylesheets/dictate_css/hide_show.css)
 
 ## Contributing
 
