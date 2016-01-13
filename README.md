@@ -1,6 +1,6 @@
 # DictateCSS
 
-An intuitive and very DRY CSS framework that speeds up development by eliminating the need to refer to stylesheets to find out what a style does.
+An intuitive and very DRY CSS framework that lets you dictate styling with classes 'named-for-what-they-do'.
 
 
 ## Installation
@@ -40,8 +40,40 @@ Pick and choose which stylesheets to include in your asset pipeline. **base is n
 *= require "dictate_css/hide_show"
 ```
 
-some example classes included **base**
-- .hide
+## Examples
+
+```
+<div class="inline-block">
+  My style is display: inline-block;
+</div>
+
+<div class="relative">
+  My style is position: relative;
+</div>
+
+<div class="absolute">
+  My style is position: absolute;
+</div>
+
+<div class="text-right">
+  My style is text-align: right;
+</div>
+
+<div class="width-100">
+  My style is width: 100%;
+</div>
+
+<div class="hide-on-mobile">
+  My style is
+  <pre>
+    @media only screen and (max-width: 768px) {
+      .hide-on-mobile {
+        display: none;
+      }
+    }
+  </pre>
+</div>
+```
 
 ## Contributing
 
