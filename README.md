@@ -1,6 +1,6 @@
 # DictateCSS
 
-An intuitive and very DRY CSS framework that lets you dictate styling with classes 'named-for-what-they-do'.
+An intuitive and very DRY CSS framework that lets you dictate styling with classes that behave as they are named.
 
 
 ## Installation

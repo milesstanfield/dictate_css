@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Miles Stanfield"]
   spec.email         = ["milesstanfield@gmail.com"]
 
-  spec.summary       = %q{An intuitive and very DRY CSS framework that lets you dictate styling with classes 'named-for-what-they-do'.}
+  spec.summary       = %q{An intuitive and very DRY CSS framework that lets you dictate styling with classes that behave as they are named.}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/milesstanfield/dictate_css"
   spec.license       = "MIT"
