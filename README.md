@@ -31,7 +31,7 @@ rails g dictate_css styles
 
 Pick and choose which stylesheets to include in your asset pipeline. **base is not optional.**
 
-```
+```css
 # app/assets/stylesheets/application.css
 
 *= require "dictate_css/base"
@@ -42,7 +42,7 @@ Pick and choose which stylesheets to include in your asset pipeline. **base is n
 
 ## Examples
 
-```
+```html
 <div class="inline-block">
   My style is display: inline-block;
 </div>
